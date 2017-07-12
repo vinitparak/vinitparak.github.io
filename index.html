@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VINIT PARAKH</title>
+	<link rel="stylesheet" type="text/css" href="protfolio.CSS">
+	<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+</head>
+<body>
+<ul class="navbar"> 
+	<li> <a href="">Home</a><li>
+	<li> <a href="">Skills</a><li>
+	<li> <a href="">Gallery</a> <li>
+	<li> <a href="">Projects</a> <li>
+	<li class="dropdown">
+		<a href="" class="dropbtn">Contact</a>
+		<div class="dropdown-content">
+			<a href="">CV</a>
+			<a href="">CV</a>
+			<a href="">CV</a>
+		</div>
+	</li>
+	</div>
+</ul>
+<img class="img1" id="" src="vinit.jpg">
+<h3 class="text1" id="par1">A Stronger Online Presence</h3>
+<h1 class="text2" id="par2">HELLO. I’M VINIT.</h1>
+<h6 class="text3" id="par3">If you’re on the hunt for a professional Web Developer with loads of experience, you’ve come to the right place.</h6>
+<!--this button is to mould -->
+	<button class="button button1" id="myBtn"> Learn More </button>
+	<!-- the modal-->
+<div id="myModal" class="modal">
+	<!--Modal content-->
+	<div class="modal-content"> <!-- text5, text4 is used in  modal class-->
+			<div class="modal-header"> <h2 class="text5"> Vinit Parakh </h2> </div>
+			<span class="close"></span>
+			<div class="modal-body">
+				<p>I am Vinit Parakh & a Third-year undergraduate student of Computer Science Engineering at ACEIT.
+					I am passionate about web development and Video games , designing, photography and learning.I am hard worker and active learnerI possess great skills that I developed through my experience and education in a related domain. Few areas of the project I have honed programming in various scripting languages, HTML5,CSS3, JS as key areas of analysis to identify and propose solutions to various machine learning problems and advanced knowledge of developer applications, tools, methodologies. Being an open source contributor in GSOC. I have basic knowledge of Google cloud compute engine and eager to learn more. I have used JIRA and GitHub for my work before.</p>
+			</div>
+			<div class="modal-footer">
+				<h3 class="text4">ENd</h3>
+			</div>
+	</div>
+</div>
+	<!-- this button is to scroll -->
+		<button class="button button2" id="btn2"> Skills </button>
+<script>
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+//  close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

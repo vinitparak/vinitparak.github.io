@@ -57,6 +57,7 @@ li a:hover, .dropdown:hover .dropbtn {
 	text-align: center;
 	font-size: 2.8em;
 	color: #DEDEDF;
+	width: 100%;
 
 }
 .text2 {
@@ -85,7 +86,7 @@ body {
 	border: none;
 	position: relative;
 	bottom: 100px;
-	left:430px; 
+	left:410px; 
 	padding: 10px 25px;
 	color: white;
     text-align: center;
@@ -100,7 +101,7 @@ body {
     border: 3px solid white;
 }
 .button2 {
-	left: 460px;
+	left: 440px;
 	background-color: #3A3B3F; 
     color: white; 
     border: 3px solid white;
@@ -134,7 +135,6 @@ body {
 	animation-name: animatetop;
 	animation-duration: 0.4s;
 }
-/* Add animation */
 @-webkit-keyframes animatetop {
 	from {top: -300px; opacity: 0}
 	to {top: 0; opacity: 1}
@@ -176,7 +176,17 @@ body {
 	position: relative;
 	bottom: 12px;
 }
-
+.text6 {
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Great Vibes', cursive;
+	font-size: 60px;
+	top:50px ;
+	bottom:0;
+	right: 20px;
+	color: white;
+}
 
 
 

@@ -192,7 +192,25 @@ body {
 	font-family: 'Great Vibes', cursive;
 	font-size: 60px;
 }
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
 
 
 

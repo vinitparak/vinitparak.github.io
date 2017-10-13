@@ -1,3 +1,7 @@
+body {
+	background-color: #3a3b3f; 
+}
+
 .navbar  {
 	list-style-type: none;
 	 }
@@ -72,9 +76,6 @@ li a:hover, .dropdown:hover .dropbtn {
 	color: #DEDEDF;
 	font-size: 1.8em;
 	text-decoration: none;
-}
-body {
-	background-color: #3a3b3f; 
 }
 /* button design */
 .button { 
@@ -191,47 +192,28 @@ body {
 	font-family: 'Great Vibes', cursive;
 	font-size: 60px;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-
-.gallery {
+.text8 {
 	position: relative;
-	top: 400px;
-  width: 1080px;
-  margin: auto;
-  padding: 2px;
-  background: #3a3b3f;
-  box-shadow: 0 0px 1px rgba(0,0,0,0);
-}
-
-.gallery > div {
-  position: relative;
-  float: left;
-  padding: 3px;
-}
-
-.gallery > div > img {
-  display: inline;
-  width: 350px;
-  height: 300px;
-  transition: .1s transform;
-  transform: translateZ(0); /* hack */
-}
-
-.gallery > div:hover {
-  z-index: 1;
-}
-
-.gallery > div:hover > img {
-  transform: scale(1.7,1.7);
-  transition: .3s transform;
-}
-.project {}
-.project1 {
+	text-align: center;
 	color: white;
+	top: 400px;
 	font-family: 'Great Vibes', cursive;
 	font-size: 60px;
 }
+.text9 {
+	position: relative;
+	text-align: center;
+	color: white;
+	top: 400px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 60px;
+}
+.contact1 {
+	position: relative;
+	top: 450px;
+	left: 100px;
+}
+
 
 
 
